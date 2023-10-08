@@ -23,9 +23,19 @@ button.square-box {
 
 .restart {
   background: green;
+  outline: none;
+  border: none;
   width: 100%;
+  padding: 5px;
   margin-top: 50px;
   font-size: 26px;
   color: white;
   border-radius: 50px;
+}
+
+.company-discription {
+  text-align: center;
+  font-size: 18px;
+  color: gray;
+  margin-top: 20px;
 }

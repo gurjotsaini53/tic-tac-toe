@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Game from "./components/Game";
+import Company from "./components/Company";
 import "./App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <div className="app">
         <Game />
+        <Company />
       </div>
     </>
   );
